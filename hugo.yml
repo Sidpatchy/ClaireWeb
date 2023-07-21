@@ -1,0 +1,49 @@
+baseURL: 'https://www.clairebot.net/'
+languageCode: en-us
+title: ClaireBot
+theme: PaperMod
+
+params:
+  title: ClaireBot
+  description: "Simply the best."
+
+  assets:
+  favicon: "https://cdn.discordapp.com/avatars/704244031772950528/5846601903a07f8f0c09932c643dd203.webp?size=4096"
+  favicon16x16: "https://cdn.discordapp.com/avatars/704244031772950528/5846601903a07f8f0c09932c643dd203.webp?size=16"
+  favicon32x32: "https://cdn.discordapp.com/avatars/704244031772950528/5846601903a07f8f0c09932c643dd203.webp?size=32"
+  
+  # profile-mode
+  profileMode:
+    enabled: true
+    title: ClaireBot
+    subtitle: "Simply the best."
+    imageUrl: "https://cdn.discordapp.com/avatars/704244031772950528/5846601903a07f8f0c09932c643dd203.webp?size=4096"
+    imageWidth: 256
+    imageHeight: 256
+    imageTitle: ClaireBot Icon
+    buttons:
+#      - name: Features
+#        url: /features/
+      - name: Invite
+        url: https://invite.clairebot.net/
+
+  socialIcons:
+    - name: discord
+      url: "https://support.clairebot.net/"
+    - name: github
+      url: "https://github.com/Sidpatchy/ClaireBot"
+    - name: twitter
+      url: "https://twitter.com/ClaireBot_"
+
+
+menu:
+  main:
+#    - identifier: features
+#      name: Features
+#      url: /features/
+#      weight: 10
+    - identifier: Invite
+      name: Invite
+      url: https://invite.clairebot.net/
+      weight: 20
+    

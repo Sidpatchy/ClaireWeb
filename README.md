@@ -1,2 +1,2 @@
 # ClaireWeb
- ClaireBot web portal
+Source code for https://www.clairebot.net/
